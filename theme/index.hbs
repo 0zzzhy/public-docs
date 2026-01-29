@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="{{ language }}" class="{{ default_theme }} sidebar-visible" dir="{{ text_direction }}">
     <head>
-        <!-- Book generated using mdBook -->
+        <!-- 本书使用 mdBook 生成 -->
         <meta charset="UTF-8">
         <title>{{ title }}</title>
         {{#if is_print }}
@@ -12,7 +12,7 @@
         {{/if}}
 
 
-        <!-- Custom HTML head -->
+         <!-- 自定义 HTML 头部 -->
         {{> head}}
 
         <meta name="description" content="{{ description }}">
@@ -32,25 +32,25 @@
         <link rel="stylesheet" href="{{ resource "css/print.css" }}" media="print">
         {{/if}}
 
-        <!-- Fonts -->
+         <!-- 字体 -->
         <link rel="stylesheet" href="{{ resource "fonts/fonts.css" }}">
 
-        <!-- Highlight.js Stylesheets -->
+         <!-- Highlight.js 样式表 -->
         <link rel="stylesheet" id="mdbook-highlight-css" href="{{ resource "highlight.css" }}">
         <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="{{ resource "tomorrow-night.css" }}">
         <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="{{ resource "ayu-highlight.css" }}">
 
-        <!-- Custom theme stylesheets -->
+         <!-- 自定义主题样式表 -->
         {{#each additional_css}}
         <link rel="stylesheet" href="{{ resource this }}">
         {{/each}}
 
         {{#if mathjax_support}}
-        <!-- MathJax -->
+         <!-- MathJax 数学公式渲染库 -->
         <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         {{/if}}
 
-        <!-- Provide site root and default themes to javascript -->
+         <!-- 向 JavaScript 提供站点根路径和默认主题 -->
         <script>
             const path_to_root = "{{ path_to_root }}";
             const default_light_theme = "{{ default_theme }}";
@@ -59,25 +59,25 @@
             window.path_to_searchindex_js = "{{ resource "searchindex.js" }}";
         {{/if}}
         </script>
-        <!-- Start loading toc.js asap -->
+         <!-- 尽快加载 toc.js -->
         <script src="{{ resource "toc.js" }}"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
         <div id="mdbook-help-popup">
-            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <h2 class="mdbook-help-title">键盘快捷键</h2>
             <div>
-                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>按下 <kbd>←</kbd> 或 <kbd>→</kbd> 以在章节间导航</p>
                 {{#if search_enabled}}
-                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>按下 <kbd>S</kbd> 或 <kbd>/</kbd> 以在书中搜索</p>
                 {{/if}}
-                <p>Press <kbd>?</kbd> to show this help</p>
-                <p>Press <kbd>Esc</kbd> to hide this help</p>
+                <p>按下 <kbd>?</kbd> 以显示此帮助</p>
+                <p>按下 <kbd>Esc</kbd> 以隐藏此帮助</p>
             </div>
         </div>
     </div>
     <div id="mdbook-body-container">
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <!-- 解决某些值被包裹在引号中存储在 localStorage 中的问题 -->
         <script>
             try {
                 let theme = localStorage.getItem('mdbook-theme');
@@ -93,7 +93,7 @@
             } catch (e) { }
         </script>
 
-        <!-- Set the theme before any content is loaded, prevents flash -->
+        <!-- 在加载任何内容之前设置主题，防止闪烁 -->
         <script>
             const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
             let theme;
@@ -107,7 +107,7 @@
 
         <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
 
-        <!-- Hide / unhide sidebar before it is displayed -->
+        <!-- 在侧边栏显示之前隐藏/取消隐藏 -->
         <script>
             let sidebar = null;
             const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
@@ -125,8 +125,8 @@
             }
         </script>
 
-        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
-            <!-- populated by js -->
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="目录">
+             <!-- 由 JavaScript 填充 -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
                 <iframe class="sidebar-iframe-outer" src="{{ path_to_root }}toc.html"></iframe>
@@ -143,22 +143,26 @@
                 <div id="mdbook-menu-bar-hover-placeholder"></div>
                 <div id="mdbook-menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="切换目录" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="切换目录" aria-label="切换目录" aria-controls="mdbook-sidebar">
                             {{fa "solid" "bars"}}
                         </label>
-                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="更换主题" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="更换主题" aria-label="更换主题" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
                             {{fa "solid" "paintbrush"}}
                         </button>
-                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="主题" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">自动</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">亮</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">锈</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">炭</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">海</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">丽</button></li>
                         </ul>
+                        <script src="//lib.baomitu.com/translate.js/3.7.2/translate.js"></script>
+                        <button id="translate" class="icon-button" type="button" title="更改语言" aria-label="更改语言" aria-haspopup="true" aria-expanded="false">
+                            {{ fa "solid" "language" }}
+                        </button>
                         {{#if search_enabled}}
-                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="搜索（按 `/` 键）" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                         <button id="mdbook-search-toggle" class="icon-button" type="button" title="搜索（按 `/` 键）" aria-label="切换搜索栏" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
                             {{fa "solid" "magnifying-glass"}}
                         </button>
                         {{/if}}
@@ -167,18 +171,21 @@
                     <h1 class="menu-title">{{ book_title }}</h1>
 
                     <div class="right-buttons">
+                        <a href="{{ path_to_root }}" class="pjax-reload" title="返回主页">
+                            {{ fa "solid" "house" "home-button" }}
+                        </a>
                         {{#if print_enable}}
-                        <a href="{{ path_to_root }}print.html" title="打印本书" aria-label="Print this book">
+                         <a href="{{ path_to_root }}print.html" title="打印本书" aria-label="打印本书">
                             {{fa "solid" "print" "print-button"}}
                         </a>
                         {{/if}}
                         {{#if git_repository_url}}
-                        <a href="{{git_repository_url}}" title="Git 仓库" aria-label="Git repository">
+                         <a href="{{git_repository_url}}" title="Git 仓库" aria-label="Git 仓库">
                             {{fa git_repository_icon_class git_repository_icon}}
                         </a>
                         {{/if}}
                         {{#if git_repository_edit_url}}
-                        <a href="{{git_repository_edit_url}}" title="建议编辑" aria-label="Suggest an edit" rel="edit">
+                         <a href="{{git_repository_edit_url}}" class="pjax-reload" title="编辑本页" aria-label="建议编辑" rel="edit">
                             {{fa "solid" "pencil" "git-edit-button"}}
                         </a>
                         {{/if}}
@@ -204,7 +211,7 @@
                 </div>
                 {{/if}}
 
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                 <!-- 在侧边栏和侧边栏切换按钮添加到 DOM 后应用 ARIA 属性 -->
                 <script>
                     document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
@@ -218,10 +225,10 @@
                         {{{ content }}}
                     </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
+                     <nav class="nav-wrapper" aria-label="页面导航">
+                         <!-- 移动端导航按钮 -->
                         {{#if previous}}
-                            <a rel="prev" href="{{ path_to_root }}{{previous.link}}" class="mobile-nav-chapters previous" title="上一章" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                             <a rel="prev" href="{{ path_to_root }}{{previous.link}}" class="mobile-nav-chapters previous" title="上一章" aria-label="上一章" aria-keyshortcuts="Left">
                                 {{#if (eq ../text_direction "rtl")}}
                                 {{fa "solid" "angle-right"}}
                                 {{else}}
@@ -231,7 +238,7 @@
                         {{/if}}
 
                         {{#if next}}
-                            <a rel="next prefetch" href="{{ path_to_root }}{{next.link}}" class="mobile-nav-chapters next" title="下一章" aria-label="Next chapter" aria-keyshortcuts="Right">
+                             <a rel="next prefetch" href="{{ path_to_root }}{{next.link}}" class="mobile-nav-chapters next" title="下一章" aria-label="下一章" aria-keyshortcuts="Right">
                                 {{#if (eq ../text_direction "rtl")}}
                                 {{fa "solid" "angle-left"}}
                                 {{else}}
@@ -242,12 +249,16 @@
 
                         <div style="clear: both"></div>
                     </nav>
+                    <main>
+                        <p></p>
+                        <div id="giscus-container"></div><!-- 新增 giscus 元素 -->
+                    </main>
                 </div>
             </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+             <nav class="nav-wide-wrapper" aria-label="页面导航">
                 {{#if previous}}
-                    <a rel="prev" href="{{ path_to_root }}{{previous.link}}" class="nav-chapters previous" title="上一章" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                     <a rel="prev" href="{{ path_to_root }}{{previous.link}}" class="nav-chapters previous" title="上一章" aria-label="上一章" aria-keyshortcuts="Left">
                         {{#if (eq ../text_direction "rtl")}}
                         {{fa "solid" "angle-right"}}
                         {{else}}
@@ -257,7 +268,7 @@
                 {{/if}}
 
                 {{#if next}}
-                    <a rel="next prefetch" href="{{ path_to_root }}{{next.link}}" class="nav-chapters next" title="下一章" aria-label="Next chapter" aria-keyshortcuts="Right">
+                     <a rel="next prefetch" href="{{ path_to_root }}{{next.link}}" class="nav-chapters next" title="下一章" aria-label="下一章" aria-keyshortcuts="Right">
                         {{#if (eq text_direction "rtl")}}
                         {{fa "solid" "angle-left"}}
                         {{else}}
@@ -276,7 +287,7 @@
         <template id=fa-clock-rotate-left>{{fa "solid" "clock-rotate-left"}}</template>
 
         {{#if live_reload_endpoint}}
-        <!-- Livereload script (if served using the cli tool) -->
+         <!-- 实时重载脚本（如果通过命令行工具提供） -->
         <script>
             const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
             const wsAddress = wsProtocol + "//" + location.host + "/" + "{{{live_reload_endpoint}}}";
@@ -317,14 +328,15 @@
         {{#if search_js}}
         <script src="{{ resource "elasticlunr.min.js" }}"></script>
         <script src="{{ resource "mark.min.js" }}"></script>
-        <script src="{{ resource "searcher.js" }}"></script>
+        <script data-pjax src="{{ resource "searcher.js" }}"></script>
         {{/if}}
 
         <script src="{{ resource "clipboard.min.js" }}"></script>
         <script src="{{ resource "highlight.js" }}"></script>
-        <script src="{{ resource "book.js" }}"></script>
+        <script data-pjax src="{{ resource "book.js" }}"></script>
 
-        <!-- Custom JS scripts -->
+         <!-- 自定义 JavaScript 脚本 -->
+        <script src="//lib.baomitu.com/pjax/0.2.8/pjax.min.js" type="text/javascript"></script>
         {{#each additional_js}}
         <script src="{{ resource this}}"></script>
         {{/each}}

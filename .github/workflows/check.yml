@@ -1,0 +1,55 @@
+name: "检查"
+
+on: [push, pull_request, merge_group, workflow_dispatch, workflow_call]
+
+concurrency:
+  group: "check"
+  cancel-in-progress: false
+
+jobs:
+  fomat-check:
+    runs-on: ubuntu-latest
+    name: "多语言格式检查"
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: AutoCorrect
+        uses: huacnlee/autocorrect-action@v2
+
+      - name: Report ReviewDog
+        if: failure()
+        uses: huacnlee/autocorrect-action@v2
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          reviewdog: true
+
+  book-run-test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    name: "框架静态测试"
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 配置 mdBook
+        uses: peaceiris/actions-mdbook@v2
+        with:
+          mdbook-version: "0.5.2"
+          # mdbook-version: 'latest'
+
+      - name: 构建测试
+        run: mdbook -V && mdbook build && mdbook test
+
+      - name: 部署到 GitHub Pages (仅非原仓库)
+        if: github.repository != 'haytham-ai/public-docs'
+        continue-on-error: true # 避免用户仓库未开启 GitHub Pages 时报错
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./book
+          publish_branch: gh-pages

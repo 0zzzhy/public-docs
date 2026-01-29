@@ -2,7 +2,7 @@
 title = "海塞姆科技文档"
 authors = ["haytham-ai", "PJ568"]
 language = "zh"
-description = "深圳市海塞姆科技有限公司在线文档"
+description = "深圳市海塞姆科技有限公司在线文档维基 Wiki"
 
 [build]
 # 若目录指向的文件不存在，编译时报错

@@ -1,0 +1,46 @@
+# 已弃用，在 Cloudflare 配置了自动部署
+
+name: "部署"
+
+on:
+  workflow_dispatch:
+  workflow_call:
+  push:
+    branches:
+      - master
+
+concurrency:
+  group: "deployment"
+  cancel-in-progress: false
+
+jobs:
+  check:
+    name: "检查"
+    uses: ./.github/workflows/check.yml
+  build-deploy:
+    name: "构建并部署"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      deployments: write
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 配置 mdBook
+        uses: peaceiris/actions-mdbook@v2
+        with:
+          mdbook-version: "0.5.2"
+          # mdbook-version: 'latest'
+
+      - name: 构建
+        run: mdbook -V && mdbook build
+
+      - name: 部署到 Cloudflare Pages
+        if: github.repository == 'haytham-ai/public-docs'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ./book --project-name=haytham-public-docs
