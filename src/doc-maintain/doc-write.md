@@ -32,10 +32,10 @@ src/
 ├── SUMMARY.md                    # 目录配置文件
 ├── products/                     # 产品类
 │   ├── index.md
-│   ├── videoextensometer/        # 视频引伸计类
+│   ├── video-extensometer/       # 视频引伸计类
 │   │   ├── index.md
 │   │   └── ...
-│   └── visualstraingauge/        # DIC 系统类
+│   └── vision-strain-gauge/      # DIC 系统类
 │       ├── index.md
 │       └── DIC_Tracker_ONS-B-10/
 │           ├── v0.5.1/           # 版本
