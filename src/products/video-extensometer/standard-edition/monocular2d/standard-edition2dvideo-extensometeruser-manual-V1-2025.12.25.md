@@ -1,57 +1,52 @@
-<img src="../../../../assets/products/video-extensometer/image2.jpeg"
-style="width:12.17222in;height:6.28681in" />
+![封面图片](../../../../assets/products/video-extensometer/image2.jpeg)
 
-# 
+# 目录
 
-# **目录**
+[1. 注意事项 [2](#_Toc23120)]
 
-[**1. 注意事项 [2](#_Toc23120)**](\l)
+[1.1. 使用安全 [2](#使用安全)]
 
-[1.1. 使用安全 [2](#使用安全)](\l)
+[1.2. 使用警告 [2](#使用警告)]
 
-[1.2. 使用警告 [2](#使用警告)](\l)
+[1.3. 法律声明 [3](#法律声明)]
 
-[1.3. 法律声明 [3](#法律声明)](\l)
+[2. 系统介绍 [4](#_Toc11626)]
 
-[**2. 系统介绍 [4](#_Toc11626)**](\l)
+[2.1. 测量原理 [4](#_Toc15714)]
 
-[2.1. 测量原理 [4](#_Toc15714)](\l)
+[2.2. 应用场景 [5](#应用场景)]
 
-[2.2. 应用场景 [5](#应用场景)](\l)
+[2.3. 硬件配置 [5](#硬件配置)]
 
-[2.3. 硬件配置 [5](#硬件配置)](\l)
+[2.4. 测量流程 [8](#测量流程)]
 
-[2.4. 测量流程 [8](#测量流程)](\l)
+[3. 软件安装 [8](#_Toc17190)]
 
-[**3. 软件安装 [8](#_Toc17190)**](\l)
+[3.1. 相机驱动安装 [9](#相机驱动安装)]
 
-[3.1. 相机驱动安装 [9](#相机驱动安装)](\l)
+[3.2. 视频引伸计软件安装 [9](#视频引伸计软件安装)]
 
-[3.2. 视频引伸计软件安装 [9](#视频引伸计软件安装)](\l)
+[4. 硬件安装 [10](#_Toc16079)]
 
-[**4. 硬件安装 [10](#_Toc16079)**](\l)
+[5. 软件使用 [12](#_Toc7314)]
 
-[**5. 软件使用 [12](#_Toc7314)**](\l)
+[5.1. 视频引伸计软件基本功能 [12](#视频引伸计软件基本功能)]
 
-[5.1. 视频引伸计软件基本功能 [12](#视频引伸计软件基本功能)](\l)
+[5.2. 视频引伸计软件详细功能 [14](#视频引伸计软件详细功能)]
 
-[5.2. 视频引伸计软件详细功能 [14](#视频引伸计软件详细功能)](\l)
+[6. 设备保养维护以及注意事项 [29](#_Toc15052)]
 
-[**6. 设备保养维护以及注意事项 [29](#_Toc15052)**](\l)
+[6.1. 日常维护 [29](#日常维护)]
 
-[6.1. 日常维护 [29](#日常维护)](\l)
+[6.2. 周期性维护 [29](#周期性维护)]
 
-[6.2. 周期性维护 [29](#周期性维护)](\l)
+[6.3. 定期校准 [30](#定期校准)]
 
-[6.3. 定期校准 [30](#定期校准)](\l)
+[6.4. 长期存放与特殊情况处理 [30](#长期存放与特殊情况处理)]
 
-[6.4. 长期存放与特殊情况处理 [30](#长期存放与特殊情况处理)](\l)
+# 1. 注意事项 
 
-1.  <span id="_Toc23120" class="anchor"></span>注意事项
-
-    1.  ## 使用安全
-
-<!-- -->
+## 1.1 使用安全
 
 1)  本系统在部分需使用电源配件时，应使用符合标准三相 220V 电压，且应有接地装置。使用不正确的工作电压可能导致故障或火灾的危险，请严格遵守使用规范。
 
@@ -63,9 +58,7 @@ style="width:12.17222in;height:6.28681in" />
 
 5)  在使用过程中必须遵守相关的使用流程及事故防治条例。
 
-    1.  ## 使用警告
-
-<!-- -->
+## 1.2 使用警告
 
 1)  在使用过程中注意保持镜面清洁，请勿用手或尖锐物体触碰镜面，避免污染镜面影响成像质量。
 
@@ -83,9 +76,7 @@ style="width:12.17222in;height:6.28681in" />
 
 8)  如发现设备问题，请及时与本公司联系，请勿随意处理。
 
-    1.  ## 法律声明
-
-<!-- -->
+## 1.3 法律声明
 
 1)  本说明书的文字、图片、操作指引、参数说明等所有内容，均为海塞姆的合法知识产权，受法律保护。您仅可将说明书用于指导本公司产品的使用，不得擅自抄袭、复制、传播、篡改说明书内容，或用于商业推广及其他产品配套非授权用途。
 
@@ -99,12 +90,9 @@ style="width:12.17222in;height:6.28681in" />
 
 6)  本声明的最终解释权归深圳市海塞姆科技有限公司所有，若您对声明内容有疑问，可通过本公司电话咨询。
 
-<!-- -->
+# 2. 系统介绍 
 
-2.  <span id="_Toc11626" class="anchor"></span>系统介绍
-
-<span id="_Toc15714"
-class="anchor"></span>2D 视频引伸计主要由以下部件组成：‌
+2D 视频引伸计主要由以下部件组成：‌
 
 -   设备主机
 
@@ -122,18 +110,17 @@ class="anchor"></span>2D 视频引伸计主要由以下部件组成：‌
 
 -   标记点（或高温材料）
 
-    1.  ## 测量原理
+## 2.1 测量原理
 
 2D 视频引伸计是一种光学非接触式变形测量设备，它通过一台相机捕捉试样表面的时序图像，利用数字图像相关技术 (Digital
 Image
 Correlation，DIC) 分析变形前后图像中特征点的位移变化，从而得到试样的位移变化值。视频引伸计测量系统主要构成见图 1，其中工业相机在光源和计算机的配合下完成对试样图像的采集，试样上布置的四个标准特征点作为视频引伸计需要匹配跟踪的特征。
 
-<img src="../../../../assets/products/video-extensometer/image3.jpeg"
-style="width:5.76458in;height:2.96875in" alt="测量原理-自绘图" />
+![图1 测量原理示意图](../../../../assets/products/video-extensometer/image3.jpeg)
 
 图 1 测量原理示意图
 
-## 应用场景
+## 2.2 应用场景
 
 1)  金属材料测试：拉伸、压缩、弯曲试验，测量弹性模量、泊松比、屈服强度
 
@@ -145,77 +132,57 @@ style="width:5.76458in;height:2.96875in" alt="测量原理-自绘图" />
 
 5)  生物医学材料：组织工程支架、生物医用弹性体的力学性能测试
 
-    1.  ## 硬件配置
-
-<!-- -->
+## 2.3 硬件配置
 
 1)  **设备主机：**设备主机外观如图 2 图 3 所示，前端（图 2）为高透亚克力面板，两侧为设备的照明光源，（图 3）后端分别为电源指示灯和数据传输接口。
 
-<img src="../../../../assets/products/video-extensometer/image4.jpeg"
-style="width:4.08264in;height:2.72222in" alt="灰壳" />
+![图2 设备主机前端图片](../../../../assets/products/video-extensometer/image4.jpeg)
 
 图 2 设备主机前端图片
 
-<img src="../../../../assets/products/video-extensometer/image5.jpeg"
-style="width:4.08264in;height:2.72014in"
-alt="B77E6D93_1f5cec69-40a3-4a7d-886b-b0334ee1c7c9" />
+![图3 设备主机后端图片](../../../../assets/products/video-extensometer/image5.jpeg)
 
 图 3.设备主机后端图片
 
 2)  **光源：**通常情况下，设备主机自带集成光源，在常规场景和高低温箱中可选配条形灯（图 3.右），在微小试样、高温炉等场景可选配射灯（图 3.左）。
 
-<img src="../../../../assets/products/video-extensometer/image6.jpeg"
-style="width:1.93681in;height:1.77153in" />
-<img src="../../../../assets/products/video-extensometer/image7.jpeg"
-style="width:1.93681in;height:1.77153in" />
+![图3 选配光源（条形灯）](../../../../assets/products/video-extensometer/image6.jpeg)
+![图3 选配光源（射灯）](../../../../assets/products/video-extensometer/image7.jpeg)
 
 图 3 选配光源
 
 3)  **固定支架：**
 
-<!-- -->
-
 1.  依据实际的夹具转向（90°/45°），在试验机平台上安装（90°/45°）旋转支架（图 4）。
 
-<img src="../../../../assets/products/video-extensometer/image8.png"
-style="width:4.07986in;height:2.72014in" alt="支架灰-更新" />
+![图4 旋转支架](../../../../assets/products/video-extensometer/image8.png)
 
 图 4.旋转支架
 
 2.  便携式三脚架（图 5），可自由调节系统水平和设备空间距离。
 
-<img src="../../../../assets/products/video-extensometer/image9.png"
-style="width:1.77153in;height:1.77153in" alt="三脚架_副本" />
-<img src="../../../../assets/products/video-extensometer/image10.png"
-style="width:1.47292in;height:1.47292in" alt="云台_副本" />
+![图5 便携式三脚架（示意图）](../../../../assets/products/video-extensometer/image9.png)
+![图5 便携式三脚架](../../../../assets/products/video-extensometer/image10.png)
 
 图 5.便携式三脚架
 
 4)  **标记点**
 
-<!-- -->
-
 1.  在常温试验时，粘贴标准圆形标记点，可以实现软件自动识别。
 
-<img src="../../../../assets/products/video-extensometer/image11.jpeg"
-style="width:4.95556in;height:1.28611in" alt="IMG_7820" />
+![image11](../../../../assets/products/video-extensometer/image11.jpeg)
 
 2.  在高温试验时，使用酒精与高温材料混合制作高温标记点，或使用高温油漆笔制作标记点，在常温试验时如不方便粘贴标准圆形标记点，也可使用普通油漆笔制作标记点。
 
-<img src="../../../../assets/products/video-extensometer/image12.jpeg"
-style="width:4.68542in;height:1.87014in" alt="IMG_7819" />
+![image12](../../../../assets/products/video-extensometer/image12.jpeg)
 
-## 测量流程
+## 2.4 测量流程
 
 1)  **布置测量系统环境**
-
-<!-- -->
 
 1.  安装视频引伸计、相机驱动、数据采集卡软件。
 
 2.  安装固定装置（便携式三脚架/旋转支架/移动支架）、视频引伸计及光源。
-
-<!-- -->
 
 2)  **测量前准备**
 
@@ -229,7 +196,7 @@ style="width:4.68542in;height:1.87014in" alt="IMG_7819" />
 
 试验结束后，变形和应变数据会在试验机界面中进行显示，测量结果会同试验机的载荷、横梁位移、应力等绘制成折线图，同时也可对结果参数进行设置得到杨氏模量、泊松比、Rp0.2、抗拉强度、N 值、R 值、断后伸长率等。
 
-3.  <span id="_Toc17190" class="anchor"></span>软件安装
+# 3. 软件安装 
 
 安装软件的电脑基本配置要求：
 
@@ -243,59 +210,47 @@ style="width:4.68542in;height:1.87014in" alt="IMG_7819" />
 
 -   64 位 WIN10 以上操作系统。
 
-    1.  ## 相机驱动安装
+## 3.1 相机驱动安装
 
 将随箱 U 盘插入待安装电脑主机上，打开 U 盘 - “相机驱动软件”文件夹，安装相机驱动软件。
 
-<img src="../../../../assets/products/video-extensometer/image13.png"
-style="width:3.51806in;height:0.35764in" alt="1718705453768" />
+![image13](../../../../assets/products/video-extensometer/image13.png)
 
-<img src="../../../../assets/products/video-extensometer/image14.png"
-style="width:3.04444in;height:0.35764in" alt="1718705636399" />
+![image14](../../../../assets/products/video-extensometer/image14.png)
 
-安装完成后桌面上将生成 2 个快捷方式图标<img src="../../../../assets/products/video-extensometer/image15.png"
-style="width:0.62811in;height:0.38795in" />，一般只会用到 Galaxy
-Viewer 软件<img src="../../../../assets/products/video-extensometer/image16.png"
-style="width:0.30694in;height:0.37778in" />。
+安装完成后桌面上将生成 2 个快捷方式图标![image15](../../../../assets/products/video-extensometer/image15.png)，一般只会用到 Galaxy
+Viewer 软件![image16](../../../../assets/products/video-extensometer/image16.png)。
 
-## 视频引伸计软件安装
+## 3.2 视频引伸计软件安装
 
 将随箱 U 盘插入到待安装的电脑主机端口上，拷贝 U 盘根目录下的“视频引伸计软件”文件夹至电脑主机的 D 盘中 - 双击“Visual
 Extensometer”文件夹 - 点击“setup”应用程序进行安装。
 
-<img src="../../../../assets/products/video-extensometer/image17.png"
-style="width:2.24137in;height:0.27824in" alt="1718705667385" />
+![image17](../../../../assets/products/video-extensometer/image17.png)
 
-<img src="../../../../assets/products/video-extensometer/image18.png"
-style="width:1.93526in;height:0.71678in" />
+![image18](../../../../assets/products/video-extensometer/image18.png)
 
-安装完成后，桌面上会自动生成快捷方式图标<img src="../../../../assets/products/video-extensometer/image19.png"
-style="width:0.34375in;height:0.37778in" />。
+安装完成后，桌面上会自动生成快捷方式图标![image19](../../../../assets/products/video-extensometer/image19.png)。
 
-4.  <span id="_Toc16079" class="anchor"></span>硬件安装
+# 4. 硬件安装 
 
 -   固定三脚架或安装旋转支架。
 
 -   通过设备底部的 1/4 螺纹孔，将设备安装至三脚架或旋转支架上。
 
-    <img src="../../../../assets/products/video-extensometer/image20.jpeg"
-    style="width:1.57569in;height:1.075in" alt="IMG_7860_副本 f" />
-    <img src="../../../../assets/products/video-extensometer/image21.png"
-    style="width:2.20903in;height:1.40833in"
-    alt="B77E6D93_1f5cec69-40a3-4a7d-886b-b0334ee1c7c9" />
+    ![image20](../../../../assets/products/video-extensometer/image20.jpeg)
+    ![image21](../../../../assets/products/video-extensometer/image21.png)
 
 -   开启光源系统：将电源线连接至光源控制器上，再通过黑色数据线将光源控制器与光源连接。
 
-    <img src="../../../../assets/products/video-extensometer/image22.png"
-    style="width:4.27083in;height:1.73264in" alt="光源连接 - 更新_副本" />
+    ![image22](../../../../assets/products/video-extensometer/image22.png)
 
 -   设备连接：通过数据线将 2D 引伸计与电脑主机连接。
 
 -   打开光源控制器开关，蓝色光源点亮，调整亮度。
 
 -   将做好标记的试样放置于合适的夹持处，打开“Visual
-    Extensometer”软件<img src="../../../../assets/products/video-extensometer/image19.png"
-    style="width:0.34375in;height:0.37778in" />，调整至合适的曝光参数（5000-20000μs）。
+    Extensometer”软件![image19](../../../../assets/products/video-extensometer/image19.png)，调整至合适的曝光参数（5000-20000μs）。
 
 -   根据“Visual
     Extensometer”软件上的实时界面，依次调整设备的高度、水平、物距，使待测试样位于画面中心处（如下图所示），即可完成调整。
@@ -307,17 +262,13 @@ style="width:0.34375in;height:0.37778in" />。
 通过卷尺或直尺测量并调整“设备前端边缘到试样表面”的距离为 210mm。打开“Visual
 Extensometer”软件，调整设备使其试样位于画面中心处。
 
-<img src="../../../../assets/products/video-extensometer/image23.png"
-style="width:5.76458in;height:2.97569in" />
+![image23](../../../../assets/products/video-extensometer/image23.png)
 
-<img src="../../../../assets/products/video-extensometer/image24.png"
-style="width:5.75972in;height:3.42014in" alt="中心界面截图" />
+![image24](../../../../assets/products/video-extensometer/image24.png)
 
-5.  <span id="_Toc7314" class="anchor"></span>软件使用
+# 5. 软件使用 
 
-    1.  ## 视频引伸计软件基本功能
-
-<!-- -->
+## 5.1 视频引伸计软件基本功能
 
 1)  将试样做好标记置于试验位置，标记通过粘贴标准圆形标记点或者手绘明显标记点方式完成，先在待测试样表面布置标记点/特征点，布置完成后将试样。
 
@@ -325,47 +276,37 @@ style="width:5.75972in;height:3.42014in" alt="中心界面截图" />
 
 3)  将加密狗插入到电脑主机 USB 接口中。
 
-4)  双击 VisualExtensometer2D 软件桌面快捷方式图标<img src="../../../../assets/products/video-extensometer/image25.png"
-    style="width:0.34722in;height:0.34722in" alt="1718706078045" />打开软件。打开软件界面如下：
+4)  双击 VisualExtensometer2D 软件桌面快捷方式图标![image25](../../../../assets/products/video-extensometer/image25.png)打开软件。打开软件界面如下：
 
-> <img src="../../../../assets/products/video-extensometer/image24.png"
-> style="width:5.75972in;height:3.42014in" alt="中心界面截图" />
+> ![中心界面截图](../../../../assets/products/video-extensometer/image24.png)
 
 5)  确认标距
 
-<!-- -->
-
 1.  使用粘贴标准圆形标记点时，软件在启动或打开相机时可自动识别标记点，并以 p1 与 p2 间的绝对距离作为待测试样的原始标距，如图所示：
 
-> <img src="../../../../assets/products/video-extensometer/image26.png"
-> style="width:2.35833in;height:1.77153in" alt="标记点" />
+> ![标记点](../../../../assets/products/video-extensometer/image26.png)
 
 2.  使用手绘标记点时，需将 p1，p2 的十字准星手动拖动到标记点处，并确保十字准星方框包裹住标记点，以 p1 与 p2 间的绝对距离作为待测试样的原始标距，如图：
 
-> <img src="../../../../assets/products/video-extensometer/image27.png"
-> style="width:2.34653in;height:1.77153in" alt="手绘标记点" />
+> ![手绘标记点](../../../../assets/products/video-extensometer/image27.png)
 
 6)  点击计算，即可计算原始标距距离、延伸量、延伸率数据。
 
-<img src="../../../../assets/products/video-extensometer/image28.png"
-style="width:5.13889in;height:2.65764in" alt="标记点-计算" />
+![image28](../../../../assets/products/video-extensometer/image28.png)
 
 7)  计算结束后点击取消，以取消计算。
 
-    1.  ## 视频引伸计软件详细功能
+## 5.2 视频引伸计软件详细功能
 
-### **文件：点击菜单栏“文件”按钮，可进行文件操作**
+### 文件：点击菜单栏“文件”按钮，可进行文件操作
 
-<img src="../../../../assets/products/video-extensometer/image29.png"
-style="width:3.34333in;height:3.43707in" />
+![image29](../../../../assets/products/video-extensometer/image29.png)
 
 1.  **保存图片：**点击保存图片选项，可在计算时进行保存图片操作。
 
-未开启保存图片状态：<img src="../../../../assets/products/video-extensometer/image30.png"
-style="width:1.33352in;height:0.42714in" />
+未开启保存图片状态：![image30](../../../../assets/products/video-extensometer/image30.png)
 
-已开启保存图片状态：<img src="../../../../assets/products/video-extensometer/image31.png"
-style="width:1.34394in;height:0.39589in" />
+已开启保存图片状态：![image31](../../../../assets/products/video-extensometer/image31.png)
 
 图片默认保存在软件安装目录下。
 
@@ -383,20 +324,15 @@ style="width:1.34394in;height:0.39589in" />
 
 5.  **力值导入格式：**由于输入力值数据时需按照软件规定格式，此选项可生成板材或者棒材的格式模板，将力值数据和试样参数按照模板格式填写后即可。
 
-<img src="../../../../assets/products/video-extensometer/image32.png"
-style="width:2.59824in;height:2.40166in" /><img src="../../../../assets/products/video-extensometer/image33.png"
-style="width:2.81965in;height:2.42996in" />
+![image32](../../../../assets/products/video-extensometer/image32.png)![image33](../../../../assets/products/video-extensometer/image33.png)
 
-6.  **测试标定：**在软件内进行标定操作后，可通过测试标定功能来验证标定精度。在标定位置采集一张标定板正视图图片，点击“标定板图片目录”后<img src="../../../../assets/products/video-extensometer/image34.png"
-    style="width:0.31319in;height:0.29861in" />按钮，选择这种标定板正视图图片，点击“计算”，可得出“X 向空心圆点间距”和“Y 向空心圆点间距”，将此数据与标定上原点间距数值×3 进行比较，可得出标定计算误差，如误差在可接受范围内，则此标定无问题。
+6.  **测试标定：**在软件内进行标定操作后，可通过测试标定功能来验证标定精度。在标定位置采集一张标定板正视图图片，点击“标定板图片目录”后![image34](../../../../assets/products/video-extensometer/image34.png)按钮，选择这种标定板正视图图片，点击“计算”，可得出“X 向空心圆点间距”和“Y 向空心圆点间距”，将此数据与标定上原点间距数值×3 进行比较，可得出标定计算误差，如误差在可接受范围内，则此标定无问题。
 
-<img src="../../../../assets/products/video-extensometer/image35.png"
-style="width:3.9708in;height:2.11973in" />
+![image35](../../../../assets/products/video-extensometer/image35.png)
 
-###  **参数配置：点击菜单栏“配置”按钮，可进行软硬件参数的配置**
+### 参数配置：点击菜单栏“配置”按钮，可进行软硬件参数的配置
 
-<img src="../../../../assets/products/video-extensometer/image36.png"
-style="width:2.44093in;height:2.60374in" />
+![image36](../../../../assets/products/video-extensometer/image36.png)
 
 1.  **相机参数设置：**此配置可设置相机硬件参数。
 
@@ -416,8 +352,7 @@ style="width:2.44093in;height:2.60374in" />
 
 -   相机画面旋转：2D 视频引伸计设置初次使用时，显示画面是垂直于真实方向的，进行画面旋转可将显示画面方向和真实方向调整为一致。
 
-<img src="../../../../assets/products/video-extensometer/image37.png"
-style="width:4.35533in;height:2.94625in" />
+![image37](../../../../assets/products/video-extensometer/image37.png)
 
 2.  **计算参数：**此配置可设置计算过程中的计算参数
 
@@ -427,15 +362,13 @@ style="width:4.35533in;height:2.94625in" />
 
 子区大小：即画面中十字准星外围方框大小，单位为像素个数，需设置为奇数，在使用标准圆形标记点时，软件会自动识别标记点并自动设置到合适的子区大小，在使用手绘标记点时，一般以方框正好包裹住标记点为佳。
 
-<img src="../../../../assets/products/video-extensometer/image38.png"
-style="width:5.127in;height:1.31344in" />
+![image38](../../../../assets/products/video-extensometer/image38.png)
 
 3.  **通讯参数配置：**此配置主要用于与试验机软件或硬件进行数据通讯，支持将试验机力值信号通过采集卡传输至本软件，同时可将软件计算的原始标距、延伸量等数据回传至试验机软件。
 
     主要通讯方式包括 UDP 数字信号通讯、模拟信号通讯和串口通讯。
 
-<img src="../../../../assets/products/video-extensometer/image39.png"
-style="width:5.14861in;height:5.05833in" />
+![image39](../../../../assets/products/video-extensometer/image39.png)
 
 根据查“附件一”表后得出适用于哪种通讯方式，再根据不同的通讯方式进行不同的设置：
 
@@ -443,8 +376,7 @@ style="width:5.14861in;height:5.05833in" />
 
 4.  **采集/保存帧率配置：**此配置可设置不同的采集模式
 
-<img src="../../../../assets/products/video-extensometer/image40.png"
-style="width:3.89931in;height:2.7in" />
+![image40](../../../../assets/products/video-extensometer/image40.png)
 
 -   模式选择：默认为实时调整，可根据不同的需要选择不同的模式。
 
@@ -454,8 +386,7 @@ style="width:3.89931in;height:2.7in" />
 
 -   间隔调整：可设置为间隔 N 秒采集一张照片。
 
-<img src="../../../../assets/products/video-extensometer/image41.png"
-style="width:3.78434in;height:1.1688in" />
+![image41](../../../../assets/products/video-extensometer/image41.png)
 
 5.  **应力 - 应变参数配置：**此配置适用于实时输入试验机力值时的参数设置。
 
@@ -475,14 +406,11 @@ style="width:3.78434in;height:1.1688in" />
 
 力值转换：试验机传输数据直接为力值数据。电压转换：试验机传输数据为电压信号。
 
-<img src="../../../../assets/products/video-extensometer/image42.png"
-style="width:3.91389in;height:2.28958in" />
+![image42](../../../../assets/products/video-extensometer/image42.png)
 
 6.  **算法参数配置：**此配置适用于修改自动识别的标记点类型，以及大变形场景的参数设置
 
 -   自动识别：在打开软件或者启动相机时可进行标记点的自动识别
-
-<!-- -->
 
 -   标记点：标准圆形标记点。
 
@@ -490,8 +418,7 @@ style="width:3.91389in;height:2.28958in" />
 
 -   白橡胶：白色橡胶上点的黑色实心圆点。
 
-<img src="../../../../assets/products/video-extensometer/image43.png"
-style="width:5.49035in;height:1.53146in" />
+![image43](../../../../assets/products/video-extensometer/image43.png)
 
 -   大变形：此参数适用于在橡胶拉伸等大变形量的场景，设置合适参数使手绘标记点的跟踪更精准。
 
@@ -503,20 +430,17 @@ style="width:5.49035in;height:1.53146in" />
 -   CZncc
     阈值：是否进行粗匹配阈值。当计算点的匹配相关系数小于给定阈值时 (0~1)，对该点进行整图位置搜索。
 
-<img src="../../../../assets/products/video-extensometer/image44.png"
-style="width:5.32569in;height:2.35417in" />
+![image44](../../../../assets/products/video-extensometer/image44.png)
 
 7.  **测量结果：**可选择是否在开始计算时输入实验名称
 
-<img src="../../../../assets/products/video-extensometer/image45.png"
-style="width:4.67847in;height:1.68264in" />
+![image45](../../../../assets/products/video-extensometer/image45.png)
 
-###  **计算模式**
+### 计算模式
 
 点击菜单栏“计算模式”可选择不同的计算模式
 
-<img src="../../../../assets/products/video-extensometer/image46.png"
-style="width:4.32238in;height:1.78056in" />
+![image46](../../../../assets/products/video-extensometer/image46.png)
 
 1.  **真实值：**软件默认采用绝对值进行数据展示，如需“拉正压负”数据需勾选真实值选项。
 
@@ -524,20 +448,17 @@ style="width:4.32238in;height:1.78056in" />
 
 3.  **应力 - 应变：**勾选此功能时，软件开启应力 - 应变计算模式，如接入试验机力值实时传输，则可在软件内实时查看应力应变曲线，也可在试验结束后导入试验机力值表格，来生成应力应变曲线
 
-### **软件标定**
+### 软件标定
 
 **软件在第一次连接设备时，需创建标定矩阵。**
 
 按照随箱 U 盘 - “标定文件”文件夹 - 标定参数，输入标定板尺寸、圆点间距、空心圆位置点参数，随后点击“尺寸标定目录”后
-<img src="../../../../assets/products/video-extensometer/image47.png"
-style="width:0.29747in;height:0.31549in" />
+![image47](../../../../assets/products/video-extensometer/image47.png)
 按钮，选择随箱 U 盘 - “标定文件”文件夹 - 标定文件 - “1”文件夹，再点击“内参标定目录”后
-<img src="../../../../assets/products/video-extensometer/image47.png"
-style="width:0.29747in;height:0.31549in" />
+![image47](../../../../assets/products/video-extensometer/image47.png)
 选择随箱 U 盘 - “标定文件”文件夹 - 标定文件 - “13”文件夹，选择完毕后，软件会自动开始进行标定，当显示“标定矩阵创建成功”弹窗时，点击确认以完成软件标定。
 
-<img src="../../../../assets/products/video-extensometer/image48.png"
-style="width:5.10903in;height:3.69722in" />
+![image48](../../../../assets/products/video-extensometer/image48.png)
 
 \*如使用后期认为数据不准确，可自行重新标定，使用相机驱动软件采集标定图片，使用视频引伸计软件重复此标定操作即可重新标定。
 
@@ -548,58 +469,47 @@ style="width:5.10903in;height:3.69722in" />
 打开相机驱动软件“Galaxy
 Viewer”，等待软件读到相机，双击左侧红色方框内相机名称以连接相机，连接相机后，点击画面左上方红色方框内开始采集按键以显示实时画面，由于相机侧置于设备内，故显示为旋转 90°后画面，需鼠标右键单击显示画面内任意位置，选择向左旋转或向右旋转，使显示画面方向与实际方向一致。
 
-<img src="../../../../assets/products/video-extensometer/image49.png"
-style="width:4.13681in;height:2.23403in" />
+![image49](../../../../assets/products/video-extensometer/image49.png)
 
 2.  设置存图路径，点击左上方工具栏“设置按钮” - 选择“存图设置” - 更改存图位置。
 
 注意：由于标定需要两组图片，所以建议设置两个存图文件夹，一个用来存放“尺寸标定图”，一个用来存放“内参标定图”。
 
-<img src="../../../../assets/products/video-extensometer/image50.png"
-style="width:2.1374in;height:2.04834in" /><img src="../../../../assets/products/video-extensometer/image51.png"
-style="width:2.86458in;height:2.02639in" />
+![image50](../../../../assets/products/video-extensometer/image50.png)![image51](../../../../assets/products/video-extensometer/image51.png)
 
 3.  拍摄尺寸标定图，将存图路径设置为“尺寸标定图”文件夹，将标定板按照“正视图”姿势摆放，点击画面左上方“保存当前图片按钮”以拍摄尺寸标定图，拍摄一张即可。
 
-<img src="../../../../assets/products/video-extensometer/image52.png"
-style="width:1.85746in;height:2.03758in" /><img src="../../../../assets/products/video-extensometer/image53.png"
-style="width:3.91736in;height:2.07153in" />
+![image52](../../../../assets/products/video-extensometer/image52.png)![image53](../../../../assets/products/video-extensometer/image53.png)
 
 4.  拍摄内参标定图，将存图路径设置为“内参标定图”文件夹，将标定板按照下图姿势摆放，每个姿势都需点击画面左上方“保存当前图片按钮”以拍摄当前姿势标定图，共需拍摄 13 张。
 
-<img src="../../../../assets/products/video-extensometer/image54.jpeg"
-style="width:3.59792in;height:4.63333in" />
+![image54](../../../../assets/products/video-extensometer/image54.jpeg)
 
-### **输出报告**
+### 输出报告
 
 如需使用此软件出具报告，可点击菜单栏“报告”按钮，填写相关信息，以出具报告。
 
-<img src="../../../../assets/products/video-extensometer/image55.png"
-style="width:3.35075in;height:3.02762in" /><img src="../../../../assets/products/video-extensometer/image56.png"
-style="width:2.10169in;height:2.96681in" />
+![image55](../../../../assets/products/video-extensometer/image55.png)![image56](../../../../assets/products/video-extensometer/image56.png)
 
-### **添加多组标距**
+### 添加多组标距
 
 在软件的图像显示区域任意位置单击鼠标右键，将出现“是否添加横向或纵向标记点”弹窗，根据实际需要进行添加。
 
-<img src="../../../../assets/products/video-extensometer/image57.png"
-style="width:4.82292in;height:3.15556in" />
+![image57](../../../../assets/products/video-extensometer/image57.png)
 
-### **固定标距**
+### 固定标距
 
 在使用无特征识别模式或试样表面已制作散斑时，可使用固定标距功能，在原始标距上面使用鼠标左键单击十字准星或方框可激活固定标距功能。
 
-<img src="../../../../assets/products/video-extensometer/image58.png"
-style="width:4.94861in;height:3.31597in" />
+![image58](../../../../assets/products/video-extensometer/image58.png)
 
-### **相机开关**
+### 相机开关
 
 在一次试验做完更换试样后，如需重新识别标准圆形标记点，可点击下图红色方框处按钮关闭相机后重新打开相机，即可重新识别。
 
-<img src="../../../../assets/products/video-extensometer/image59.png"
-style="width:5.12639in;height:1.34861in" />
+![image59](../../../../assets/products/video-extensometer/image59.png)
 
-### **快捷图表及相关操作**
+### 快捷图表及相关操作
 
 1.  在开始计算后，软件会自动弹出快捷图表区域并绘制曲线。
 
@@ -619,18 +529,13 @@ style="width:5.12639in;height:1.34861in" />
 
 3.  另在图表中空白区域按住鼠标左键可拖动曲线，使用鼠标左键或右键单击曲线上的数据点可将此图片设置为初始图片。
 
-<img src="../../../../assets/products/video-extensometer/image60.png"
-style="width:2.93264in;height:4.34236in" />
+![image60](../../../../assets/products/video-extensometer/image60.png)
 
-6.  <span id="_Toc15052" class="anchor"></span>设备保养维护以及注意事项
+# 6. 设备保养维护以及注意事项 
 
-    1.  ## 日常维护
-
-<!-- -->
+## 6.1 日常维护
 
 1)  **使用前检查**
-
-<!-- -->
 
 1.  外观检查：确认设备无碰撞变形，盖板无损伤，连接线无破损。
 
@@ -640,11 +545,7 @@ style="width:2.93264in;height:4.34236in" />
 
 4.  设备准备：取出设备，检查前端盖板表面有无灰尘（建议使用气吹清理）。
 
-<!-- -->
-
 2)  **使用后清洁**
-
-<!-- -->
 
 1.  盖板清洁：
 
@@ -664,13 +565,9 @@ style="width:2.93264in;height:4.34236in" />
 
 6.  标记保护：避免试样标记污染或磨损，影响测量精度。
 
-    1.  ## 周期性维护
-
-<!-- -->
+## 6.2 周期性维护
 
 1)  **每月维护**
-
-<!-- -->
 
 1.  全面清洁：
 
@@ -682,13 +579,11 @@ style="width:2.93264in;height:4.34236in" />
 
 2)  **半年维护**
 
-<!-- -->
-
 1.  **校准检查**：使用引伸计标定仪或标定板测试标定验证测量精度（误差应控制在±0.5% 内）。
 
 2.  **光源检查**：检查光源亮度是否均匀，必要时更换老化光源。
 
-    1.  ## 定期校准
+## 6.3 定期校准
 
 3.  **校准周期**：正常使用条件下**12 个月**（最长不超过 18
     个月），使用频繁或环境恶劣时应缩短至**6 个月。**
@@ -709,11 +604,9 @@ style="width:2.93264in;height:4.34236in" />
 
 -   **注**：设备经过修理、更换重要部件后，或对测量精度有怀疑时，应立即重新校准。
 
-    1.  ## 长期存放与特殊情况处理
+## 6.4 长期存放与特殊情况处理
 
 1)  **长期存放（4 周以上）**
-
-<!-- -->
 
 1.  彻底清洁并干燥设备。
 
@@ -723,11 +616,7 @@ style="width:2.93264in;height:4.34236in" />
 
 4.  每季度检查一次，确保干燥剂有效，设备无霉变或损坏。
 
-<!-- -->
-
 2)  **特殊情况处理**
-
-<!-- -->
 
 1.  **镜头霉变**：如发现镜头有轻微霉斑，立即联系专业维修人员处理，切勿自行擦拭
 
@@ -744,25 +633,13 @@ style="width:2.93264in;height:4.34236in" />
 
 -   如均无问题，应进行校准或联系本公司技术支持
 
-# 
-
-# <img src="../../../../assets/products/video-extensometer/image1.png"
-style="width:3.18958in;height:0.67778in" />
-
-# 
-
-# 
-
-# 
+# ![image1](../../../../assets/products/video-extensometer/image1.png)
 
 # 感谢您选用我公司产品！
 
-<img src="../../../../assets/products/video-extensometer/image61.png"
-style="width:1.32432in;height:1.36111in" />
-<img src="../../../../assets/products/video-extensometer/image62.png"
-style="width:1.28236in;height:1.37134in" />
-<img src="../../../../assets/products/video-extensometer/image63.png"
-style="width:1.29371in;height:1.37292in" />
+![image61](../../../../assets/products/video-extensometer/image61.png)
+![image62](../../../../assets/products/video-extensometer/image62.png)
+![image63](../../../../assets/products/video-extensometer/image63.png)
 
 **总部地址：**深圳市南山区桃源街道南山智园 C3 栋 15 层
 
