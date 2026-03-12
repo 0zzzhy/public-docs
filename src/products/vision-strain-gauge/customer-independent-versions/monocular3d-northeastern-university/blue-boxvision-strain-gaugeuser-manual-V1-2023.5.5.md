@@ -157,7 +157,7 @@ style="width:1.43194in;height:1.74444in" />
 <img src="../../../../assets/products/vision-strain-gauge/image15.png"
 style="width:3.75833in;height:4.24444in" />
 
-2）机开机待相机自检完成后，双击打开PCC3.7软件，在摄像机中可以看到对应相机编号，双击即可连接相机。在实时中关闭快门然后更换镜头。
+2）机开机待相机自检完成后，双击打开 PCC3.7 软件，在摄像机中可以看到对应相机编号，双击即可连接相机。在实时中关闭快门然后更换镜头。
 
 <img src="../../../../assets/products/vision-strain-gauge/image16.png"
 style="width:5.75972in;height:3.08681in" />

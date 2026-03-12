@@ -72,7 +72,7 @@ alt="b77b552654ca15d446d47262414dad4" />
 style="width:1.7875in;height:2.49236in" /><img src="../../../assets/products/vision-strain-gauge/image8.png"
 style="width:2.79787in;height:2.51993in" />
 
-# 4. 散斑1）常温试验时，采用标配的黑白颜色散斑喷漆。
+# 4. 散斑 1）常温试验时，采用标配的黑白颜色散斑喷漆。
 
 2）高温试验时，采用酒精加高温材料，制作高温散斑。
 
@@ -166,7 +166,7 @@ style="width:5.26111in;height:3.28819in" />
 <img src="../../../assets/products/vision-strain-gauge/image20.png"
 style="width:5.28056in;height:3.30069in" />
 
-# 3. 相机采集设置1）在“图片采集”界面点击相机按钮呈高亮状态，即可实时显示画面。
+# 3. 相机采集设置 1）在“图片采集”界面点击相机按钮呈高亮状态，即可实时显示画面。
 
 2）在“采集设置”设置板块，根据测试需求设置采集方式，结束方式，根据视野亮度适当调整曝光时间。
 
@@ -222,7 +222,7 @@ style="width:4.32361in;height:2.64931in" />
 <img src="../../../assets/products/vision-strain-gauge/image31.png"
 style="width:5.76806in;height:3.60486in" />
 
-# 5. 应变片功能1）点击“应变片”，进入功能界面，点击“相机”按钮进行实时画面显示，在相机设置中设置相机帧率，根据图像明亮程度设置曝光时间，最后设置图片保存路径。
+# 5. 应变片功能 1）点击“应变片”，进入功能界面，点击“相机”按钮进行实时画面显示，在相机设置中设置相机帧率，根据图像明亮程度设置曝光时间，最后设置图片保存路径。
 
 2）相机设置完成，点击“创建”按钮，自定义创建应变片大小、位置。
 
@@ -231,7 +231,7 @@ style="width:5.76806in;height:3.60486in" />
 <img src="../../../assets/products/vision-strain-gauge/image32.png"
 style="width:5.23889in;height:3.27431in" />
 
-# 6. 报告生成1）点击“报告信息”按钮，弹出填写报告信息窗口。填写信息将体现在报告中。
+# 6. 报告生成 1）点击“报告信息”按钮，弹出填写报告信息窗口。填写信息将体现在报告中。
 
 <img src="../../../assets/products/vision-strain-gauge/image33.png"
 style="width:3.09306in;height:3.47569in" />

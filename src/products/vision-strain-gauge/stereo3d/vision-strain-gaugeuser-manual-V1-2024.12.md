@@ -72,7 +72,7 @@ alt="b77b552654ca15d446d47262414dad4" />
 <img src="../../../assets/products/vision-strain-gauge/image7.png"
 style="width:1.7875in;height:2.49236in" />
 
-## 1.4. 散斑1)  常温试验时，采用标配的黑白颜色散斑喷漆。
+## 1.4. 散斑 1)  常温试验时，采用标配的黑白颜色散斑喷漆。
 
 2)  高温试验时，采用酒精加高温材料，制作高温散斑。
 
@@ -118,7 +118,7 @@ style="width:5.40833in;height:1.88333in" />
 > <img src="../../../assets/products/vision-strain-gauge/image10.png"
 > style="width:3.04444in;height:0.35764in" alt="1718705636399" />
 
-## 3.2. 应变仪软件安装1)  找到随机 U 盘资料以下文件（版本号以实际为准），解压点击安装。
+## 3.2. 应变仪软件安装 1)  找到随机 U 盘资料以下文件（版本号以实际为准），解压点击安装。
 
 > <img src="../../../assets/products/vision-strain-gauge/image11.png"
 > style="width:2.00021in;height:0.42435in" />
@@ -128,7 +128,7 @@ style="width:5.40833in;height:1.88333in" />
 <img src="../../../assets/products/vision-strain-gauge/image12.png"
 style="width:2.61458in;height:1.28681in" />
 
-## 3.3. 软件安装验证1)  点击电脑屏幕上相机驱动图标；
+## 3.3. 软件安装验证 1)  点击电脑屏幕上相机驱动图标；
 
 > <img src="../../../assets/products/vision-strain-gauge/image13.png"
 > style="width:0.88333in;height:0.99097in" alt="1718705772522" />
@@ -285,7 +285,7 @@ style="width:5.76806in;height:3.11944in" />
 
 11) 在标定成功后，建议将标定图片另存，且按照日期 - 物距 - 实验场景命名。
 
-## 4.3. 采集实验过程1)  标定步骤完成后，将被测区域挪到视野内，保证物距准确，点击左侧相机按钮进入图片采集界面，点击右上角相机图标打开相机；
+## 4.3. 采集实验过程 1)  标定步骤完成后，将被测区域挪到视野内，保证物距准确，点击左侧相机按钮进入图片采集界面，点击右上角相机图标打开相机；
 
 <img src="../../../assets/products/vision-strain-gauge/image38.png"
 style="width:2.67279in;height:4.05713in" /><img src="../../../assets/products/vision-strain-gauge/image39.png"
